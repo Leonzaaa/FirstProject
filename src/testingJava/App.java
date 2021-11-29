@@ -7,7 +7,7 @@ public class App {
     public static void main(String[] args) throws Exception {
 
         Random rnd = new Random();
-        double d2 = rnd.nextInt(6);
+        double d2 = rnd.next(6);
         int number = (int)d2 + 1;
 
         // String[] array = { "Tic", "Tac", "Toe" };
