@@ -5,6 +5,11 @@ import java.util.*;
 
 public class App {
     public static void main(String[] args) throws Exception {
+
+        Random rnd = new Random();
+        double d2 = rnd.nextInt(6);
+        int number = (int)d2 + 1;
+
         // String[] array = { "Tic", "Tac", "Toe" };
         // int l = array.length;
         // System.out.println(l);
@@ -56,5 +61,7 @@ public class App {
         }
         return new int[] {};
     }
+
+
 
 }
