@@ -22,6 +22,8 @@ public class App {
         TwoSums tw = new TwoSums();
         int[] array = new int[] { 2, 3, 4, 5, 6, 7, 8, 9, 2 };
         tw.twoSum(array, 1);
+        // ghbdtnnn
+
     }
 
     public static int getRandomDiceNumber() {
